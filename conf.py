@@ -20,6 +20,7 @@ course_open_date = '2020-07-01'
 course_close_date = '2030-12-31'
 questionnaire_default_submissions = 5
 program_default_submissions = 10
+reveal_model_solutions = 'deadline_or_full_points +2h'
 default_max_group_size = 1
 use_wide_column = False
 static_host = os.environ.get('STATIC_CONTENT_HOST', 'http://localhost:8080/static/default')
